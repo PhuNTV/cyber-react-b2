@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.glassesImage {
+  position: relative;
+}
+
+/* .img1 {
+  position: absolute;
+} */
+
+.changeGlasses {
+  position: absolute;
+  top: 22%;
+  left: 23%;
+  width: 55%;
+}
+
+.glassesDetail {
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  min-height: 10%;
+  bottom: 0;
+  padding: 10px 20px 0 20px;
+  background-color: rgb(234, 196, 10);
+  color: white;
+  transition: all 0.5s;
+  opacity: 0;
+  text-align: left;
+}
+
+img {
+  cursor: pointer;
+}
+
+.glasses {
+  background-color: white;
+  border: solid grey;
 }
